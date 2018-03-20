@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+#navbar {
+  background-color:red; height:70px; width: 100%;
+}
+
+#right-column {
+  width: 30%; float: right; height:auto;
+}
+
+#type-box {
+  background-color:tan; height:300px; width: 100%; float:right;
+}
+
+.type-container {
+  padding-left:10px; padding-top:10px;
+}
+
+.x-button {
+  background-color:red; color:white;
+}
+
+#itinerary-nav {
+  background-color:orange; height:70px; width: 100%; float:right;
+      margin-top:10px; font-size:25px; vertical-align:middle;
+}
+
+#itinerary-box {
+  background-color:lime; height:300px; width: 100%; float:right;
+}
+
+.option-box {
+  padding-left:10px; padding-top:10px;
+}
+
+#map {
+  width:auto;
+}
+
+@media (max-width: 800px) {
+  #right-column {
+    width:100%;
+  }
+  #map {
+    width:100%;
+  }
+}
